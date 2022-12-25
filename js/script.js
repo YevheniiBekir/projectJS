@@ -70,10 +70,8 @@ const delEl = (e) => {
         clickOnFilm.removeEventListener('click', delEl);
     }
 };
-
 clickOnFilm.addEventListener('click', delEl);
 */
-
 
 
 
@@ -102,3 +100,20 @@ clickOnFilm.forEach(item => {
 item.addEventListener('click', paintEl);
 });
 */
+
+
+
+//Ставлю умову, якщо дитина( звертання за іменем до неї ) - текстова нода, пропускаємо ітерацію.
+/*
+for(let node of document.body.childNodes){
+    if(node.nodeName == '#text'){
+        continue;
+    }
+
+    log(node);
+}
+*/
+
+
+
+
